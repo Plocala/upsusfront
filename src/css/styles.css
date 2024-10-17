@@ -1,0 +1,119 @@
+/* App */
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+/* Components */
+
+.footerComponent {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.iconsComponent {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.messagesComponent {
+    margin: 20px 0;
+}
+
+.navbarComponent {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.statisticsComponent {
+    margin: 20px 0;
+}
+
+.tasksComponent {
+    margin: 20px 0;
+}
+
+/* Home */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header-home {
+    background-color: #016dc0;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-home ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-home li {
+    margin-right: 1rem;
+}
+
+.navbar-home a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-home a:hover {
+    color: #43cebb;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.sidebar-home {
+    width: 20%;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+.content-home {
+    flex: 1;
+    padding: 1rem;
+}
+
+.footer-home {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}

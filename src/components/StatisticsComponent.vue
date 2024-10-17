@@ -12,8 +12,3 @@
     }
 </script>
 
-<style scoped>
-    .statisticsComponent {
-    margin: 20px 0;
-    }
-</style>

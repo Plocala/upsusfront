@@ -15,10 +15,3 @@
     }
 </script>
 
-<style scoped>
-    .iconsComponent {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-    }
-</style>
