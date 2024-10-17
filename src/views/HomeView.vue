@@ -3,6 +3,7 @@
         <header class="header-home">
             <nav class="navbar-home">
                 <ul>
+                    <img id="imgLogo" alt="Vue logo" src="@/assets/logo.png">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Serviços</a></li>

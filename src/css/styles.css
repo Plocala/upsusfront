@@ -8,6 +8,12 @@
 }
 
 /* Components */
+#imgLogo {
+    position: absolute;
+    transform: scale(0.1);
+    border-radius: 100%;
+}
+
 .footerComponent {
     background-color: #233697;
     background-image: linear-gradient(to top, rgba(35, 54, 151, 1), rgba(35, 54, 151, 0));
@@ -24,14 +30,6 @@
     justify-content: space-around;
     margin: 20px 0;
 }
-
-.notificationComponent {
-    background-color: #e3f2fd;
-    border: 1px solid #90caf9;
-    padding: 1rem;
-    margin-bottom: 0.5rem;
-}
-  
 
 .navbarComponent {
     background-color: #233697;
