@@ -33,6 +33,12 @@
     margin: 20px 0;
 }
 
+.iconsComponent button {
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 9%;
+}
+
 .navbarComponent {
     background-color: #233697;
     color: white;
