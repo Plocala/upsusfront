@@ -1,5 +1,5 @@
 <template>
-  <div class="navbarComponent">Boa tarde, Amanda! 👋 Enfermeira | Início | Usuários | Tarefas | Indicadores</div>
+  <div class="navbarComponent">Boa tarde, Amanda!</div>
 </template>
 
 <script>
