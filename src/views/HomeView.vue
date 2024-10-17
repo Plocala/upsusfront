@@ -14,22 +14,17 @@
             <aside class="sidebar-home">
                 <IconsComponent />
             </aside>
-            <section class="content-home">
-                <StatisticsComponent />
-            </section>
         </main>
     </div>
 </template>
 
 <script>
-    import IconsComponent from '@/components/IconsComponent.vue'
-    import StatisticsComponent from '@/components/StatisticsComponent.vue'
+    import IconsComponent from '@/components/IconsComponent.vue';
 
     export default {
         name: 'HomeView',
         components: {
             IconsComponent,
-            StatisticsComponent,
         }
     }
 </script>
