@@ -6,7 +6,6 @@
                     <img id="imgLogo" alt="Vue logo" src="@/assets/logo.png">
                     <li style="margin-left: 7rem;"><router-link to="/profile">Perfil</router-link></li>
                     <li><router-link to="/indicators">Indicadores</router-link></li>
-                    <li><router-link to="/about">Sobre</router-link></li>
                 </ul>
             </nav>
         </header>
