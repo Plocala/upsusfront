@@ -4,10 +4,11 @@
             <nav class="navbar-home">
                 <ul>
                     <img id="imgLogo" alt="Vue logo" src="@/assets/logo.png">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">Sobre</a></li>
+                    <li><a href="/services">Serviços</a></li>
+                    <li><a href="/contact">Contato</a></li>
+                    <li><a href="/Login">Login</a></li>
                 </ul>
             </nav>
         </header>
