@@ -1,5 +1,5 @@
 <template>
-    <div class="tasks">
+    <div class="tasksComponent">
         <h2>Tarefas para o dia por prioridade</h2>
         <ul>
         <li>Alexsandro Vieira</li>
@@ -12,12 +12,12 @@
 
 <script>
     export default {
-    name: 'Tasks'
+    name: 'TasksComponent'
     }
 </script>
 
 <style scoped>
-    .tasks {
+    .tasksComponent {
     margin: 20px 0;
     }
 </style>

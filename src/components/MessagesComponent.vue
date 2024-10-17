@@ -1,5 +1,5 @@
 <template>
-    <div class="messages">
+    <div class="messagesComponent">
         <h2>Últimas mensagens recebidas</h2>
         <p>Bruna Luisa: "Ah! Entendi! Passo aí amanhã!" <button>Responder</button></p>
     </div>
@@ -7,12 +7,12 @@
 
 <script>
     export default {
-    name: 'Messages'
+    name: 'MessagesComponent'
     }
 </script>
 
 <style scoped>
-    .messages {
+    .messagesComponent {
     margin: 20px 0;
     }
 </style>

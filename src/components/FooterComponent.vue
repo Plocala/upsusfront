@@ -1,15 +1,15 @@
 <template>
-    <div class="footer">Rodapé do Site</div>
+    <div class="footerComponent">Rodapé do Site</div>
 </template>
 
 <script>
     export default {
-    name: 'Footer'
+    name: 'FooterComponent'
     }
 </script>
 
 <style scoped>
-    .footer {
+    .footerComponent {
     background-color: #333;
     color: white;
     text-align: center;

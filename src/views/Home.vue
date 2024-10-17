@@ -1,31 +1,31 @@
 <template>
-    <div class="content">
-        <icons></icons>
-        <tasks></tasks>
-        <statistics></statistics>
-        <messages></messages>
+    <div class="contentView">
+        <IconsComponent />
+        <TasksComponent />
+        <StatisticsComponent />
+        <MessagesComponent />
     </div>
 </template>
 
 <script>
-    import Icons from '../components/Icons.vue'
-    import Tasks from '../components/Tasks.vue'
-    import Statistics from '../components/Statistics.vue'
-    import Messages from '../components/Messages.vue'
+    import IconsComponent from './components/IconsComponent.vue'
+    import TasksComponent from './components/TasksComponent.vue'
+    import StatisticsComponent from './components/StatisticsComponent.vue'
+    import MessagesComponent from './components/MessagesComponent.vue'
 
     export default {
-        name: 'Home',
+        name: 'HomeView',
         components: {
-                Icons,
-                Tasks,
-                Statistics,
-                Messages
+            IconsComponent,
+            TasksComponent,
+            StatisticsComponent,
+            MessagesComponent
         }
     }
 </script>
 
 <style scoped>
-    .content {
-    padding: 20px;
+    .contentView {
+        padding: 20px;
     }
 </style>

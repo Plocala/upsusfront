@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <Navbar></Navbar>
+    <NavbarComponent></NavbarComponent>
     <router-view/>
-    <footer></footer>
+    <FooterComponent></FooterComponent>
     <img alt="Vue logo" src="./assets/logo.png">
   </div>
 </template>
 
 <script>
-  import Navbar from './components/Navbar.vue'
-  import Footer from './components/Footer.vue';
+  import NavbarComponent from '../components/NavbarComponent.vue'
+  import FooterComponent from '../components/FooterComponent.vue';
 
   export default {
     name: 'App',
     components: {
-      Navbar,
-      Footer
+      NavbarComponent,
+      FooterComponent
     }
   }
 </script>
@@ -24,7 +24,7 @@
   body {
     font-family: Arial, sans-serif;
   }
-  
+
   #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;

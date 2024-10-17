@@ -1,5 +1,5 @@
 <template>
-    <div class="icons">
+    <div class="iconsComponent">
         <div>📒</div>
         <div>📄</div>
         <div>❤️</div>
@@ -11,12 +11,12 @@
 
 <script>
     export default {
-    name: 'Icons'
+    name: 'IconsComponent'
     }
 </script>
 
 <style scoped>
-    .icons {
+    .iconsComponent {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;

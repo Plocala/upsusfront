@@ -1,5 +1,5 @@
 <template>
-    <div class="statistics">
+    <div class="statisticsComponent">
         <h2>Estatísticas</h2>
         <p>Minhas conversas: 15</p>
         <p>Meu tempo médio de resposta: 1h45</p>
@@ -8,12 +8,12 @@
 
 <script>
     export default {
-    name: 'Statistics'
+    name: 'StatisticsComponent'
     }
 </script>
 
 <style scoped>
-    .statistics {
+    .statisticsComponent {
     margin: 20px 0;
     }
 </style>
