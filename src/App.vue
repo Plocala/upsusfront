@@ -1,20 +1,20 @@
 <template>
-  <div id="app">
-    <NavbarComponent></NavbarComponent>
-    <router-view/>
-    <FooterComponent></FooterComponent>
-  </div>
+    <div id="app">
+        <NavbarComponent></NavbarComponent>
+        <router-view />
+        <FooterComponent></FooterComponent>
+    </div>
 </template>
 
 <script>
-  import NavbarComponent from '@/components/NavbarComponent.vue';
-  import FooterComponent from '@/components/FooterComponent.vue';
+    import NavbarComponent from '@/components/NavbarComponent.vue';
+    import FooterComponent from '@/components/FooterComponent.vue';
 
-  export default {
-    name: 'App',
-    components: {
-      NavbarComponent,
-      FooterComponent
+    export default {
+        name: 'App',
+        components: {
+            NavbarComponent,
+            FooterComponent
+        }
     }
-  }
 </script>
