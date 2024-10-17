@@ -1,5 +1,4 @@
 /* App */
-
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -9,9 +8,9 @@
 }
 
 /* Components */
-
 .footerComponent {
-    background-color: #333;
+    background-color: #233697;
+    background-image: linear-gradient(to top, rgba(35, 54, 151, 1), rgba(35, 54, 151, 0));  /* Gradiente azul */
     color: white;
     text-align: center;
     padding: 10px;
@@ -21,7 +20,7 @@
 }
 
 .iconsComponent {
-    display: flex;
+    display: block;
     justify-content: space-around;
     margin: 20px 0;
 }
@@ -31,7 +30,7 @@
 }
 
 .navbarComponent {
-    background-color: #333;
+    background-color: #233697;
     color: white;
     padding: 10px;
     text-align: center;
@@ -46,7 +45,6 @@
 }
 
 /* Home */
-
 html, body {
     margin: 0;
     padding: 0;
@@ -54,9 +52,7 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
     box-sizing: inherit;
 }
 
@@ -80,7 +76,10 @@ html, body {
 }
 
 .navbar-home li {
-    margin-right: 1rem;
+    margin-right: 3rem;
+    padding: 10px;
+    background-color: #3489caba;
+    border-radius: 18px;
 }
 
 .navbar-home a {
@@ -90,7 +89,8 @@ html, body {
 }
 
 .navbar-home a:hover {
-    color: #43cebb;
+    font-weight: bolder;
+    color: #333333c5;
 }
 
 .main-content {
@@ -101,9 +101,9 @@ html, body {
 }
 
 .sidebar-home {
-    width: 20%;
+    width: 25%;
     padding: 1rem;
-    background-color: #f4f4f4;
+    background-color: #f3f3f3;
 }
 
 .content-home {
@@ -112,7 +112,8 @@ html, body {
 }
 
 .footer-home {
-    background-color: #333;
+    background-color: #233697;
+    background-image: linear-gradient(to top, rgba(35, 54, 151, 1), rgba(35, 54, 151, 0));
     color: white;
     text-align: center;
     padding: 1rem;
