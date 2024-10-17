@@ -25,9 +25,13 @@
     margin: 20px 0;
 }
 
-.messagesComponent {
-    margin: 20px 0;
+.notificationComponent {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
 }
+  
 
 .navbarComponent {
     background-color: #233697;
