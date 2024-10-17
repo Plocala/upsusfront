@@ -3,11 +3,11 @@
         <div style="font-weight: bolder; margin-top: -10px; color: gray;">Notificações</div>
         <div style="display: flex;  flex-direction: row; justify-content: space-around; padding-top: 10px;">
             <button><label for="categories">📒</label></button>
-            <select name="categories" id="categories" form="categoriesForm" @click="fetchCategories">
-                <option value="EMANDAMENTO">Em andamento</option>
-                <option value="CONCLUIDA">Concluída</option>
-                <option value="CANCELADA">Cancelada</option>
-                <option value="AGUARDANDO">Aguardando</option>
+            <select name="categories" id="categories" form="categoriesForm">
+                <option @click="fetchCategories" value="EMANDAMENTO">Em andamento</option>
+                <option @click="fetchCategories" value="CONCLUIDA">Concluída</option>
+                <option @click="fetchCategories" value="CANCELADA">Cancelada</option>
+                <option @click="fetchCategories" value="AGUARDANDO">Aguardando</option>
             </select>
             <ul>
                 <li v-for="notif in notifs" :key="notif.id" data-test="notif">

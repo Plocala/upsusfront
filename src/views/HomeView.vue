@@ -19,11 +19,12 @@
 
 <script>
     import IconsComponent from '@/components/IconsComponent.vue';
+    import ButtonComponent from '@/components/ButtonComponent.vue';
 
     export default {
         name: 'HomeView',
         components: {
-            IconsComponent,
+            IconsComponent
         }
     }
 </script>
