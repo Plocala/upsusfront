@@ -4,11 +4,10 @@
             <nav class="navbar-home">
                 <ul>
                     <img id="imgLogo" alt="Vue logo" src="@/assets/logo.png">
-                    <li style="margin-left: 7rem;"><a href="#">Perfil</a></li>
-                    <li><a href="#">Indicadores</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li style="margin-left: 7rem;"><router-link to="/profile">Perfil</router-link></li>
+                    <li><router-link to="/indicators">Indicadores</router-link></li>
                 </ul>
-            </nav>  
+            </nav>
         </header>
         <main class="main-content">
             <aside class="sidebar-home">
