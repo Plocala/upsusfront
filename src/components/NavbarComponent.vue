@@ -1,3 +1,3 @@
 <template>
-  <div class="navbarComponent">Boa tarde, Amanda!</div>
+    <div class="navbarComponent">Boa tarde, Amanda!</div>
 </template>
